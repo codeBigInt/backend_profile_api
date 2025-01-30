@@ -12,10 +12,11 @@ The goal of this API is to demonstrate the ability to build a simple REST API wi
 ## API Specification
 
 ### Endpoints
--**GET** `/`
+
+- **GET** `/`
 - **GET** `/fetch-data`
 
-### Response Format (200 OK)
+### Response Format (200 OK) for GET: /fetch-data
 ```json
 {
   "email": "your-email@example.com",
@@ -46,7 +47,7 @@ The goal of this API is to demonstrate the ability to build a simple REST API wi
 ## Technologies Used
 - **Programming Language**: JavaScript (Node.js)
 - **Framework**: Express.js (for API routing)
-- **Deployment**: The API is hosted on a publicly accessible endpoint via [Your Hosting Service (e.g., Heroku, Vercel)].
+- **Deployment**: The API is hosted on a publicly accessible endpoint via Vercel.
   
 ## Setup Instructions
 
