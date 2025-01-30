@@ -1,0 +1,28 @@
+{
+  "name": "profile-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "API to provide personal information details",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeBigInt/backend_profile_api.git"
+  },
+  "author": "codeBigInt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeBigInt/backend_profile_api/issues"
+  },
+  "homepage": "https://github.com/codeBigInt/backend_profile_api#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
