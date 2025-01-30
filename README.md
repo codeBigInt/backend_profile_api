@@ -14,7 +14,6 @@ The goal of this API is to demonstrate the ability to build a simple REST API wi
 ### Endpoints
 
 - **GET** `/`
-- **GET** `/fetch-data`
 
 ### Response Format (200 OK) for GET: /fetch-data
 ```json
@@ -40,7 +39,7 @@ The goal of this API is to demonstrate the ability to build a simple REST API wi
 ```
 
 ## Features
-- **GET Request**: The API supports a `GET` request to a `/fetch-data` to fetch the required information.
+- **GET Request**: The API supports a `GET` request to a `/` to fetch the required information.
 - **CORS Support**: The API handles Cross-Origin Resource Sharing (CORS) appropriately to allow access from any origin.
 - **ISO 8601 Datetime Format**: The `current_datetime` field is dynamically generated and returned in ISO 8601 format (UTC).
 
